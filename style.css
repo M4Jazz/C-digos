@@ -1,0 +1,144 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body {
+	font-family: montserrat;
+}
+
+.topofixo{
+    position: fixed;
+    top: 50;
+    width: 100%;
+}
+.principal {
+    background-color: #FF8C00; 
+    height: 80px;
+	font-weight: bold;
+    line-height: 80px;
+}
+img.logoimg {
+    width: 50px;
+    margin: 1rem;
+    float: left;
+}
+label.logotext {
+	font-size: 32px;
+    float: left;
+}
+.uninove {
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    float: right;
+	margin-right: 60px;
+}
+
+nav.menu {
+	background: black;
+	height: 40px;
+	width: 100%;
+}
+nav.menu ul {
+	float: right;
+	margin-right: 20px;
+}
+nav.menu ul ul {
+    display: grid;
+	position: fixed;
+    visibility: hidden;
+}
+nav.menu ul ul li {
+    float: none;
+    border-bottom: solid 1px white;
+}
+nav.menu ul li {
+	display: inline-block;
+	line-height: 40px;
+	margin: 0 5px;
+}
+nav.menu ul li:hover ul {
+    visibility: visible;
+}
+nav.menu a {
+    display: block;
+	color: white;
+	font-size: 17px;
+	padding: 0px 15px;
+    background-color: black;
+}
+nav.menu a:hover {
+	background-color: #ff8c007c;
+	transition: .4s;
+}
+
+section{
+    padding-top: 140px;
+}
+
+label[for="check_menu"] {
+    padding: 4px;
+    background-color: black;
+    color: white;
+    font-family: "Arial";
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+#check_menu{
+    display: none;
+}
+
+label[for="check_menu"] {
+    display: none;
+}
+
+@media(max-width: 600px) {
+
+    label[for="check_menu"] {
+        display: block;
+    }
+
+    nav.menu ul {
+        margin-right:55%;
+        text-align: center;
+        position: fixed;
+        margin-left: -5px;
+        transition: all .4s;
+    }
+    nav.menu ul li {
+        width: 100%;
+        float: none;
+        background: black;
+    }
+    nav.menu ul ul {  
+        position: static;
+        overflow: hidden;
+        max-height: 0;
+        transition: all .4s;
+    }
+    nav.menu ul ul li {
+    }
+    nav.menu ul li:hover ul {
+        height: auto;
+        max-height: 250px;
+    }
+    section {
+        padding-top: 330px;
+        transition: all .3s;
+    }
+
+    #check_menu:checked ~ div nav.menu ul {     
+        margin-left: -122%;
+    }
+
+    #check_menu:checked ~ section {      
+        padding-top: 140px;
+    }
+
+}
