@@ -1,4 +1,5 @@
 # Ownage-Digital
 Empresa de Prestadora de Serviço
 
-Site:aneline/Ownage-Digital.git
+
+https://github.com/aneline/Ownage-Digital
