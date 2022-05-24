@@ -122,11 +122,10 @@ label[for="check_menu"] {
         max-height: 0;
         transition: all .4s;
     }
-    nav.menu ul ul li {
-    }
     nav.menu ul li:hover ul {
         height: auto;
         max-height: 250px;
+        margin-right:5%;
     }
     section {
         padding-top: 330px;
@@ -140,5 +139,5 @@ label[for="check_menu"] {
     #check_menu:checked ~ section {      
         padding-top: 140px;
     }
-
 }
+
