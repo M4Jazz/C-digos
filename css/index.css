@@ -38,7 +38,7 @@ label.logotext {
 
 nav.menu {
 	background: black;
-	height: 4vw;
+	height: 5vw;
 	width: 100%;
 }
 nav.menu ul {
@@ -56,8 +56,7 @@ nav.menu ul ul li {
 }
 nav.menu ul li {
 	display: inline-block;
-	line-height: 4vw;
-	margin-right: 5px;
+	line-height: 5vw;
 }
 nav.menu ul li:hover ul {
     visibility: visible;
@@ -65,7 +64,7 @@ nav.menu ul li:hover ul {
 nav.menu a {
     display: block;
 	color: white;
-	font-size: 1.5vw;
+	font-size: 1.8vw;
 	padding: 0px 15px;
     background-color: black;
 }
@@ -84,7 +83,7 @@ label[for="check_menu"] {
     color: white;
     font-family: "Arial";
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 3vw;
     cursor: pointer;
     width: 3vw;
     height: 3vw;
@@ -104,12 +103,18 @@ label[for="check_menu"] {
         display: block;
     }
 
+    nav.menu a {
+        font-size: 3vw;
+        padding: 5px 15px;
+    }
+
     nav.menu ul {
-        line-height: 2vw;
+        line-height: 3vw;
         margin-right:55%;
         text-align: center;
         position: fixed;
         margin-left: -5px;
+        margin-top: 10px;
         transition: all .3s linear;
     }
     nav.menu ul li {
