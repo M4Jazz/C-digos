@@ -23,20 +23,7 @@
     font-size: 2vw;
 }
 
-.foto {
-    padding: 3%;
-    margin-top: 2%;
-    margin-left: 50%;
-    float: right; 
-    position: absolute;
-}
-
 .foto img {
-    margin-top: 5%;
-    width: 100%;
-}
-
-.empresa img {
     margin-top: 3%;
     width: 100%;
 }

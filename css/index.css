@@ -110,11 +110,11 @@ label[for="check_menu"] {
 
     nav.menu ul {
         line-height: 3vw;
-        margin-right:55%;
+        margin-right: 55%;
         text-align: center;
         position: fixed;
         margin-left: -5px;
-        margin-top: 10px;
+        margin-top: 2%;
         transition: all .3s linear;
     }
     nav.menu ul li {
@@ -132,7 +132,7 @@ label[for="check_menu"] {
     nav.menu ul li:hover ul {
         height: auto;
         max-height: 250px;
-        margin-right:5%;
+        margin-right: 5%;
     }
 
     #check_menu:checked ~ div nav.menu ul {     
