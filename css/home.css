@@ -1,0 +1,30 @@
+* {
+    font-family: "Poppins", sans-serif;
+  }
+
+img {
+    width: 100%;
+}
+
+.container {
+    padding: 10;
+}
+
+.texto {
+    margin-right: 50%;
+    float: right; 
+    text-align: justify;
+}
+
+.texto h2 {
+    text-align: left;
+}
+
+.foto {
+    padding: 3%;
+    margin-top: 2%;
+    margin-left: 50%;
+    float: right; 
+    position: absolute;
+}
+

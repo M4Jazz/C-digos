@@ -72,24 +72,25 @@ nav.menu a {
 }
 nav.menu a:hover {
 	background-color: #ff8c007c;
-	transition: .4s;
+	transition: .3s;
 }
 
 section{
-    padding-top: 140px;
+    padding-top: 120px;
 }
 
 label[for="check_menu"] {
-    padding: 4px;
+    padding: 2px;
     background-color: black;
     color: white;
     font-family: "Arial";
     text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     cursor: pointer;
     width: 40px;
     height: 40px;
 }
+
 #check_menu{
     display: none;
 }
@@ -109,35 +110,37 @@ label[for="check_menu"] {
         text-align: center;
         position: fixed;
         margin-left: -5px;
-        transition: all .4s;
+        transition: all .3s linear;
     }
     nav.menu ul li {
         width: 100%;
         float: none;
         background: black;
+        opacity: 85%;
     }
     nav.menu ul ul {  
         position: static;
         overflow: hidden;
         max-height: 0;
-        transition: all .4s;
+        transition: all .3s;
     }
     nav.menu ul li:hover ul {
         height: auto;
         max-height: 250px;
         margin-right:5%;
     }
-    section {
-        padding-top: 330px;
-        transition: all .3s;
-    }
 
     #check_menu:checked ~ div nav.menu ul {     
         margin-left: -122%;
+        transition: all .0s;
     }
 
+    /* section {
+        padding-top: 330px;
+        transition: all .3s;
+    }
     #check_menu:checked ~ section {      
-        padding-top: 140px;
-    }
-}
+        padding-top: 120px;
+    } */
 
+  }
