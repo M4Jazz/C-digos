@@ -13,11 +13,14 @@ img {
 .texto {
     margin-right: 50%;
     float: right; 
+    font-family: montserrat;
     text-align: justify;
 }
 
 .texto h2 {
     text-align: left;
+    font-family: montserrat;
+    font-size: 30px;
 }
 
 .foto {
@@ -27,4 +30,3 @@ img {
     float: right; 
     position: absolute;
 }
-
