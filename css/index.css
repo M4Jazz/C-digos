@@ -11,40 +11,39 @@ body {
 
 .topofixo{
     position: fixed;
-    top: 50;
     width: 100%;
 }
 .principal {
     background-color: #FF8C00; 
-    height: 80px;
+    height: 6vw;
 	font-weight: bold;
-    line-height: 80px;
+    padding: 1%;
 }
 img.logoimg {
-    width: 50px;
-    margin: 1rem;
+    width: 4.4vw;
     float: left;
 }
 label.logotext {
-	font-size: 32px;
+	font-size: 4vw;
     float: left;
+    margin-left: 0.5%;
 }
 .uninove {
     text-decoration: none;
     color: black;
-    font-size: 32px;
+    font-size: 4vw;
     float: right;
-	margin-right: 60px;
+	margin-right: 2%;
 }
 
 nav.menu {
 	background: black;
-	height: 40px;
+	height: 4vw;
 	width: 100%;
 }
 nav.menu ul {
 	float: right;
-	margin-right: 20px;
+	margin-right: 1%;
 }
 nav.menu ul ul {
     display: grid;
@@ -57,8 +56,8 @@ nav.menu ul ul li {
 }
 nav.menu ul li {
 	display: inline-block;
-	line-height: 40px;
-	margin: 0 5px;
+	line-height: 4vw;
+	margin-right: 5px;
 }
 nav.menu ul li:hover ul {
     visibility: visible;
@@ -66,7 +65,7 @@ nav.menu ul li:hover ul {
 nav.menu a {
     display: block;
 	color: white;
-	font-size: 17px;
+	font-size: 1.5vw;
 	padding: 0px 15px;
     background-color: black;
 }
@@ -76,7 +75,7 @@ nav.menu a:hover {
 }
 
 section{
-    padding-top: 120px;
+    padding-top: 11vmax;
 }
 
 label[for="check_menu"] {
@@ -85,10 +84,10 @@ label[for="check_menu"] {
     color: white;
     font-family: "Arial";
     text-align: center;
-    font-size: 24px;
+    font-size: 2.5vw;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 3vw;
+    height: 3vw;
 }
 
 #check_menu{
@@ -106,6 +105,7 @@ label[for="check_menu"] {
     }
 
     nav.menu ul {
+        line-height: 2vw;
         margin-right:55%;
         text-align: center;
         position: fixed;
@@ -131,14 +131,15 @@ label[for="check_menu"] {
     }
 
     #check_menu:checked ~ div nav.menu ul {     
-        margin-left: -122%;
+        margin-left: -350%;
         transition: all .0s;
     }
 
-    /* section {
-        padding-top: 330px;
+    section {
+        padding-top: 10vw;
         transition: all .3s;
     }
+    /* 
     #check_menu:checked ~ section {      
         padding-top: 120px;
     } */
