@@ -5,7 +5,7 @@
 
 .container {
     padding: 10;
-    margin-top: -2%;
+    margin-top: 4%;
 }
 
 .texto h2 {
@@ -16,8 +16,6 @@
 }
 
 .texto {
-    margin-right: 50%;
-    float: right; 
     font-family: 'arial';
     text-align: justify;
     font-size: 2vw;

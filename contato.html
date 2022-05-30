@@ -1,63 +1,62 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/contato.css" />
-    <link rel="script" href="./js/contato.js" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/contato.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
-      rel="stylesheet"
-    />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+    rel="stylesheet" />
+  <title>contato</title>
+</head>
 
-    <title>contato</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="header">
-        <h2>Deixe seu Contato</h2>
-      </div>
-
-      <form id="form" class="form">
-        <div class="form-control">
-          <label for="username">Nome completo</label>
-          <input type="text" id="username" />
-          <i class="fas fa-exclamation-circle"></i>
-          <i class="fas fa-check-circle"></i>
-          <small>Mensagem de erro</small>
-        </div>
-
-        <form id="form" class="form">
-          <div class="form-control">
-            <label for="telefone">Telefone</label>
-            <input type="text" id="telefone" />
-            <i class="fas fa-exclamation-circle"></i>
-            <i class="fas fa-check-circle"></i>
-            <small>Mensagem de erro</small>
-          </div>
-
-          <form id="form" class="form">
-            <div class="form-control">
-              <label for="Email">Email</label>
-              <input type="text" id="Email" />
-              <i class="fas fa-exclamation-circle"></i>
-              <i class="fas fa-check-circle"></i>
-              <small>Mensagem de erro</small>
-            </div>
-
-        <button type="submit">Enviar</button>
-      </form>
-
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Faça seu cadastro!</h2>
     </div>
 
-    <script
-      src="https://kit.fontawesome.com/f9e19193d6.js"
-      crossorigin="anonymous"
-    ></script>
-    
-  </body>
+    <form id="form" class="form" method="get" action="./cadastro-sucesso.html">
+      <div class="form-control">
+        <label for="username">Nome completo
+          <span class="info">*</span>
+        </label>
+        <input class="input" required data-tipo="nome" type="text" name="nome"
+         id="nome" minlength="4" />
+      </div>
+
+      <div class="form-control">
+        <label for="telefone">Telefone
+          <span class="info">*</span>
+        </label>
+        <input class="input" required data-tipo="nome" type="text" name="nome" id="nome" minlength="9" />
+      </div>
+
+      <div class="form-control">
+        <label class="label" for="email">
+          E-mail
+          <span class="info">*</span>
+        </label>
+        <input class="input" required data-tipo="email" type="email" name="email" id="email" />
+      </div>
+
+
+      <div class="form-control">
+        <label class="label" for="cidade">
+          Cidade
+          <span class="info">*</span>
+        </label>
+        <input class="input" required data-tipo="cidade" type="text" name="cidade" id="cidade" />
+      </div>
+
+      <button type="submit" id="botaoSubmit">Cadastrar Usuário</button>
+    </form>
+  </div>
+
+  <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
