@@ -5,6 +5,7 @@
 	list-style: none;
 	box-sizing: border-box;
 }
+
 body {
 	font-family: montserrat;
 }
@@ -14,7 +15,7 @@ body {
     width: 100%;
 }
 .principal {
-    background-color: #FF8C00; 
+    background-color: #000080;
     height: 6vw;
 	font-weight: bold;
     padding: 1%;
@@ -37,7 +38,7 @@ label.logotext {
 }
 
 nav.menu {
-	background: black;
+	background: #87ceeb;
 	height: 5vw;
 	width: 100%;
 }
@@ -63,13 +64,13 @@ nav.menu ul li:hover ul {
 }
 nav.menu a {
     display: block;
-	color: white;
+	color: black;
 	font-size: 1.8vw;
 	padding: 0px 15px;
-    background-color: black;
+ 
 }
 nav.menu a:hover {
-	background-color: #ff8c007c;
+	background-color: #000080;
 	transition: .3s;
 }
 
