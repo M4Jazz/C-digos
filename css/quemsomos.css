@@ -1,42 +1,46 @@
-
-.slidetopo img {
-    width: 100%;
-}
-
 .container {
     padding: 10;
     margin-top: -2%;
+}
+
+.slidetopo img {
+    width: 100%;
 }
 
 .texto h2 {
     color: black;
     text-align: left;
     font-family: montserrat;
-    font-size: 3vw;
+    font-variant:normal;
 }
 
 .texto {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: larger;
+    margin-top: 2%;
     margin-right: 50%;
     float: right; 
-    font-family: 'arial';
     text-align: justify;
-    font-size: 2vw;
+    font-variant:normal;
 }
 
 .foto {
-    padding: 3%;
-    margin-top: 2%;
+    padding: 1%;
+    margin-top: 3%;
     margin-left: 50%;
     float: right; 
     position: absolute;
 }
 
 .foto img {
-    margin-top: 5%;
-    width: 100%;
+    margin-top: 3%;
+    width: 95%;
 }
 
 .empresa img {
-    margin-top: 3%;
+    margin-top: 1%;
     width: 100%;
 }
+
+
