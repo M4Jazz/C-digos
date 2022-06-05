@@ -64,7 +64,11 @@ window.onload = function () {
 
     if (formIsValid) {
       console.log("O formulário está 100% válido!");
-      alert("O formulário está 100% válido!");
+      alert("CONTATO ENVIADO COM SUCESSO!");
+      window.location.href = "home.html";
+    }
+    else {
+      console.log("O formulário está incompleto!");
     }
   }
 

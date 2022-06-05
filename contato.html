@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./css/contato.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" />
   <script src="js/contato.js"></script>
   <title>Contato</title>
 </head>
@@ -15,36 +16,31 @@
 <body>
   <div class="container">
     <div class="header">
-      <h2>Contato!</h2>
+      <h2>Contato</h2>
     </div>
 
     <form id="form" class="form" method="get" action="./cadastro-sucesso.html">
       <div class="form-control">
-        <label for="username">Nome completo
-          <span class="info">*</span>
-        </label>
+        <label for="username">Nome completo</label>
         <input class="input" data-tipo="nome" type="text" name="nome" id="username" minlength="4" />
         <small>Mensagem de erro</small>
       </div>
 
       <div class="form-control">
-        <label for="telefone">Telefone
-          <span class="info">*</span>
-        </label>
-        <input class="input" data-tipo="telefone" type="text" name="telefone" id="telefone" minlength="9" />
-        <small>Mensagem de erro</small>
-      </div>
-
-      <div class="form-control">
-        <label class="label" for="email">
-          E-mail
-          <span class="info">*</span>
-        </label>
+        <label class="label" for="email">E-mail</label>
         <input class="input" data-tipo="email" type="email" name="email" id="email" />
         <small>Mensagem de erro</small>
       </div>
 
-      <button type="submit" id="botaoSubmit">Enviar</button>
+      <div class="form-control">
+        <label for="telefone">Telefone</label>
+        <input class="input" data-tipo="telefone" type="text" name="telefone" id="telefone" minlength="9" />
+        <small>Mensagem de erro</small>
+      </div>
+
+      <div style="text-align: center;">
+        <input type="submit" value="Enviar" id="botaoSubmit">
+      </div>
     </form>
   </div>
 
