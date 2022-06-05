@@ -1,15 +1,15 @@
-* {
+*{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
 
-body {
+body{
   padding: 2px;
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient; width: 100%;
+  background: linear-gradient;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@ body {
   background-color: rox;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  width: 400px;
+  width: 480px;
   max-width: 100%;
   overflow: hidden;
 }
@@ -30,7 +30,15 @@ body {
   text-align: center;
 }
 
-.form {
+.form{
+  /* background: #d3d3d3;
+  width: 50%;
+  height: 70%;
+  margin:0 auto;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 10px;
+  margin-top: 50px; */
   padding: 15px;
 }
 
@@ -40,18 +48,24 @@ body {
   position: relative;
 }
 
-.form-control label {
+.form-control label.label {
   display: inline-block;
   margin-bottom: 5px;
 }
 
-.form-control input {
+.container input {
   border: 2px solid #f0f0f0;
-  display: block;
+}
+
+.form-control input.input {
   border-radius: 10px;
   font-size: 14px;
-  width: 100%;
   padding: 10px;
+}
+
+.form-control input.radio {
+  display: inline-block;
+  position: relative;
 }
 
 .form-control i {
@@ -100,4 +114,39 @@ body {
 .form-control.error small {
   visibility: visible;
   color: #e74c3c;
+}
+
+
+
+
+input,select{
+  border-radius: 10px;
+  height: 30px;
+  border: none;
+}
+
+input[type="submit"]{
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  width: 80px;
+  height: 35px;
+}
+
+input[type="button"]{
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  width: 80px;
+  height: 35px; 
+}
+
+input[type="submit"]:hover{
+  background: black;
+  color: #fff;
+}
+
+input[type="button"]:hover{
+  background: black;
+  color: #fff;
 }

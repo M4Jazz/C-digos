@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" />
+    <script src="js/login.js"></script>
+
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Login</h2>
+        </div>
+
+        <form id="form" class="form" method="post" action="home.html">
+
+            <div class="form-control">
+                <label class="label" for="email">
+                    E-mail
+                    <span class="info">*</span>
+                </label>
+                <input class="input" data-tipo="email" type="email" name="email" id="email" />
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label class="label" for="password">
+                    Senha
+                    <span class="info">*</span>
+                </label>
+                <input class="input" data-tipo="password" type="password" name="password" id="password" />
+                <small>Mensagem de erro</small>
+            </div>
+
+            <button type="submit" id="botaoSubmit">Enviar</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
